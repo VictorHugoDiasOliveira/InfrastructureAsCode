@@ -18,11 +18,11 @@ This repository contains a collection of ready-to-use Terraform snippets designe
 
 1. Clone the repository:
 2. Navigate to the directory of the desired snippet.
-3. Customize the variables as needed.
+3. Create a folder named vars and a new file named vars.tfvars and assign values to the variables defined in variables.tf.
 4. Initialize and apply the configuration:
 ```
 terraform init
-terraform apply
+terraform apply --var-file=vars/vars.tfvars
 ```
 
 ## GitHub Provider Note
