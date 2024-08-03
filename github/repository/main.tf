@@ -23,4 +23,11 @@ resource "github_repository" "create" {
   allow_update_branch    = true
   allow_auto_merge       = false
   delete_branch_on_merge = false
+
+  # If you want to use a template you can use the following code
+  # template {
+  #   owner                = "owner" # user or company
+  #   repository           = "repository_name"  # repository to copy
+  #   include_all_branches = true
+  # }
 }
