@@ -13,3 +13,18 @@ This repository contains a collection of ready-to-use Terraform snippets designe
 - Configurations for creating and managing AWS resources
 - Automation of repositories and pipelines on GitHub
 - Examples of integrations with other platforms
+
+## How to Use
+
+1. Clone the repository:
+2. Navigate to the directory of the desired snippet.
+3. Customize the variables as needed.
+4. Initialize and apply the configuration:
+```
+terraform init
+terraform apply
+```
+
+## GitHub Provider Note
+
+Due to an unknown issue, the GitHub provider modules could not be utilized. As a result, there are no modules for the GitHub configurations in this repository. We recommend manually configuring the necessary variables and resources as needed.
