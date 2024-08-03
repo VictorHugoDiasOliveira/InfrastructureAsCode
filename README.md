@@ -8,7 +8,7 @@ This repository contains a collection of ready-to-use Terraform snippets designe
 - Automate the creation of repositories and workflows on GitHub
 - Provide practical, tested examples of Terraform configurations
 
-Contents
+## Contents
 
 - Configurations for creating and managing AWS resources
 - Automation of repositories and pipelines on GitHub
