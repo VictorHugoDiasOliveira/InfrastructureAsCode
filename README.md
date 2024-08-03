@@ -28,3 +28,6 @@ terraform apply --var-file=vars/vars.tfvars
 ## GitHub Provider Note
 
 Due to an unknown issue, the GitHub provider modules could not be utilized. As a result, there are no modules for the GitHub configurations in this repository. We recommend manually configuring the necessary variables and resources as needed.
+
+## To do
+- Create var.tfvars.example
