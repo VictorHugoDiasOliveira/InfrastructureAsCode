@@ -10,7 +10,7 @@ resource "github_repository" "create" {
   gitignore_template = var.git_ignore_template
 
   # General - General
-  is_template = true
+  is_template                 = true
   web_commit_signoff_required = false
 
   # General - Features

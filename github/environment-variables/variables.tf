@@ -16,7 +16,7 @@ variable "environment_name" {
 variable "variables" {
   description = "The name of the variable and value"
   type = list(object({
-    name = string
+    name  = string
     value = string
   }))
 }

@@ -1,10 +1,10 @@
 resource "github_actions_environment_secret" "action_environment_secret" {
-  repository      = var.repository_name
-  environment     = var.environment_name
+  repository  = var.repository_name
+  environment = var.environment_name
 
   for_each = {
     for index, secrets in var.secrets :
-    secrets.name => secrets 
+    secrets.name => secrets
   }
 
   secret_name     = each.value.name
