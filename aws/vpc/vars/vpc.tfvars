@@ -1,0 +1,1 @@
+main_vpc_cidr_block = "172.30.0.0/16"
