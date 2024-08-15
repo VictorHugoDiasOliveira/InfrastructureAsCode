@@ -1,3 +1,13 @@
+variable "aws_region" {
+  description = "String: AWS Account Region."
+  type        = string
+}
+
+variable "environment" {
+  description = "String: AWS account environment name. e.g.: dev, test, or prod."
+  type        = string
+}
+
 variable "engine_name" {
   description = "Database engine name"
   type        = string

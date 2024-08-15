@@ -13,8 +13,3 @@ variable "main_vpc_cidr_block" {
   description = "String: The CIDR range used at the VPC level"
   type        = string
 }
-
-variable "aws_availability_zones" {
-  description = "String: AWS Account Region."
-  type        = list(string)
-}
